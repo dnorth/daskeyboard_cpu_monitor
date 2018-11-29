@@ -1,0 +1,24 @@
+{
+  "name": "cpu_meter",
+  "version": "1.0.0",
+  "description": "practice CPU meter for the Q Daskeyboard applet",
+  "main": "index.js",
+  "author": "Danny North",
+  "license": "MIT",
+  "qConfig": {
+    "geometry": {
+      "width": 10,
+      "height": 1,
+      "defaults": {
+        "origin": {
+          "x": 2,
+          "y": 1
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "daskeyboard-applet": "^2.8.8",
+    "os-utils": "^0.0.14"
+  }
+}
